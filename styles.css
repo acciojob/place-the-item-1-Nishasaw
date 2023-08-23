@@ -1,2 +1,14 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+/* Apply these styles to the flex items */
+.item {
+  flex: 0 0 calc(33.33% - 10px); /* Adjust the width based on your preference */
+  margin: 5px;
+  height: 100px; /* Set a fixed height for the items */
+  background-color: #3498db;
+}
 /* Your CSS Code here. */
